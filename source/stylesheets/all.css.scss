@@ -1,54 +1,8 @@
 @import "reveal.min";
 @import "themes/default";
 
-.reveal {
-  font-size: 180%;
-  section img {
-    background: white;
-  }
-}
 
-.inline-images {
-  .miniatures {
-    width: 31%;
-    display: -moz-inline-stack;
-    display: inline-block;
-    vertical-align: center;
-    margin: 5px;
-    zoom: 1;
-    *display: inline;
-  }
-  .medium-images {
-    width: 47%;
-    display: -moz-inline-stack;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 5px;
-    zoom: 1;
-    *display: inline;
-  }
-}
-
-.big-images {
-  width: 85%;
-}
-
-.inexus-logo {
-  width: 30%;
-}
-
-.inexus-name {
-  @extend h1;
-  font-size: 3em;
-}
-.medium-phrase {
-  @extend h3;
-  font-size: 3em;
-}
-.small-phrase {
-  @extend h4;
-  font-size: 3em;
-}
+//// Controller
 
 #btn-right, #btn-left, .up-down {
   width: 0px;
@@ -105,5 +59,7 @@
   background: grey;
   height: 100%;
   width: 100%;
-  .controllers { margin-top: 60px; }
+  .controllers {
+    margin-top: 60px;
+  }
 }

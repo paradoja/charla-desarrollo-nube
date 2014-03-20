@@ -4,10 +4,10 @@ Reveal.initialize
   history: true
   rollingLinks: false
   slideNumber: true
+  maxScale: 3.0
 
   theme: Reveal.getQueryHash().theme || 'default'
   transition: Reveal.getQueryHash().transition || 'default'
 
   dependencies: [
-    { src: 'javascripts/classList.js', condition: ->  !document.body.classList }
   ]

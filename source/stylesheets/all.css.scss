@@ -1,5 +1,37 @@
 @import "reveal.min";
 @import "themes/default";
+@import "highlight-styles/default";
+
+.reveal section {
+  .addenda {
+    text-align: right;
+  }
+
+  img.clean_img {
+    background: none;
+    border: 0;
+    box-shadow: 0 0 0;
+    margin: 0;
+    vertical-align: middle;
+  }
+}
+
+.full-table {
+  width: 100%;
+
+  tr td {
+    height: 100px;
+    width: 33%;
+
+    &:last-of-type {
+      text-align: right;
+    }
+
+    &.unique-row, &:nth-of-type(2) {
+      text-align: center;
+    }
+  }
+}
 
 
 //// Controller

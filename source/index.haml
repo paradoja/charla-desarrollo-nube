@@ -1,5 +1,155 @@
 %section
-  %h1 Algo bonito
+  %h1 Desarrollo en 2014
+
+  %p.addenda
+    = link_to 'paradoja@gmail.com', 'mailto:paradoja@gmail.com'
+    %br
+    = link_to '@paradoja', 'twitter.com/paradoja'
+    %br
+    = link_to 'https://github.com/paradoja', 'https://github.com/paradoja'
 
 %section
-  %h1 Otra sección
+  %h2 ¿Qué es la nube?
+  = image_tag 'clouds.svg', class: :clean_img
+
+%section
+  %section
+    %h2
+      Desarrollo hace 10&nbsp;+&nbsp;rand(10) años
+
+  %section
+    %pre
+      %code.data-trim
+        = preserve do
+          :escaped
+            <?php3 mysql_connect("geo.caf.org","df99328942","tortilla");
+              mysql_select_db("bancotierra"); @mysql_query("SET NAMES 'utf8'");
+              $query = mysql_query("SELECT * FROM ...
+              $row = mysql_fetch_array($query); ?>
+            <tr><?php3 foreach ($rows as $row) { ?><td><?php3 echo $row[0] ?></td><td>
+                <?php3 switch ($row[1]) { ?>
+                <?php3 case 1: case 3: ?><b><?php3 echo fnkl($row[2]); ?></b>
+                <?php3 break; ?>
+                <?php3 case 2: ?><?php3 $ary = ljg($row[2]); echo $ary[2]; ?>
+                <?php3 break; ?> ...
+            </tr>
+  %section
+    %pre
+      %code.data-trim
+        = preserve do
+          :escaped
+            <servlet><servlet-name>org.apache.cocoon.Cocoon</servlet-name>
+            <servlet-class>org.apache.cocoon.Cocoon</servlet-class><init-param>
+            <param-name>properties</param-name><param-value>
+            /usr/lib/jakarta-tomcat/conf/cocoon.properties</param-value>
+            </init-param></servlet><servlet-mapping>
+    %pre
+      %code.data-trim
+        = preserve do
+          :escaped
+            public class SimpleBeanFactoryAwareAspectInstanceFactory
+                    implements AspectInstanceFactory, BeanFactoryAware {
+                ...
+%section
+  %h3
+    ¿Qué ha ido cambiando?
+    %br
+    ¿Por qué?
+
+%section
+  %table.full-table
+    %tr
+      %td
+        Agile
+      %td.fragment
+        TDD
+      %td.fragment
+        Kanban カンバン
+    %tr
+      %td.fragment
+        WWW como
+        %br
+        plataforma
+      %td.fragment
+        = image_tag 'git-logo.svg', class: :clean_img
+      %td.fragment
+        = image_tag 'octocat.svg', class: :clean_img
+    %tr
+      %td.fragment
+        = image_tag 'rails-logo.svg', class: :clean_img
+      %td.fragment
+        = image_tag 'heroku-logo.png', class: :clean_img
+      %td.fragment
+        APIs
+        %br
+        para todo
+    %tr
+      %td.fragment.unique-row{ colspan: 3 }
+        \...
+
+%section
+  %ul
+    %li
+      Cambios sociales y culturales
+      %span.fragment
+        \... que llevan a cambios técnicos
+    %li.fragment
+      De una aplicación grande a muchas chicas interconectadas
+    %li.fragment
+      Muchos servicios gestionados por terceros
+      %table.full-table.fragment
+        %tr
+          %td
+            Alojamiento
+          %td
+            Gestión del tráfico/CDNs...
+          %td
+            Cache
+        %tr
+          %td
+            BBDD
+          %td
+            Backups/seguridad
+          %td
+            Logs/monitorización/análisis
+        %tr
+          %td
+            Búsqueda
+          %td
+            Correo
+          %td
+            Colas de procs.
+        %tr
+          %td
+            BBDD
+          %td
+            Backups/seguridad
+          %td
+            Pasarelas de pago
+        %tr
+          %td.unique-row{ colspan: 3 }
+            \...
+
+%section
+  %h3 Cosas a tener en cuenta
+  %p
+    dependencia, complejidad, blah, blah
+  %p
+    mejor diseño, se prueba mejor, coste...
+
+%section
+  %h3 Igual algo más...
+
+%section
+  %h4 Cosas aburridas
+  %ul
+    %li
+      = link_to 'Imagen', 'http://commons.wikimedia.org/wiki/File:Cloud_computing_icon.svg'
+      de la nube de
+      = link_to 'Πrate', 'http://commons.wikimedia.org/wiki/User_talk:%CE%A0rate'
+    %li
+      = link_to 'Logo de git', 'http://git-scm.com/downloads/logos'
+      de
+      = link_to 'Jason Long', 'http://twitter.com/jasonlong'
+  %hr
+  %h3 Preguntas

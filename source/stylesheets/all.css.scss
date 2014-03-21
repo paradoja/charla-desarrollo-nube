@@ -2,6 +2,18 @@
 @import "themes/default";
 @import "highlight-styles/default";
 
+.reveal .future-days, .reveal .past-days {
+  color: black;
+
+  & h2 {
+    color: black;
+  }
+}
+
+.reveal aside {
+  float: right;
+}
+
 .reveal section {
   .addenda {
     text-align: right;
@@ -16,6 +28,10 @@
   }
 }
 
+.reveal .smalltext {
+  font-size: 24px;
+}
+
 .full-table {
   width: 100%;
 
@@ -27,7 +43,7 @@
       text-align: right;
     }
 
-    &.unique-row, &:nth-of-type(2) {
+    &[colspan='3'], &:nth-of-type(2) {
       text-align: center;
     }
   }
